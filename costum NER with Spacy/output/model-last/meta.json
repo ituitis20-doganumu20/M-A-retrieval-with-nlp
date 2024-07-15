@@ -1,0 +1,131 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.5,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a6d0fc360",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "1. ACQUIRER",
+      "10. ACQUIRER",
+      "11. ACQUIRER",
+      "12. ACQUIRER",
+      "13. ACQUIRER",
+      "2. ACQUIRED",
+      "2. ACQUIRER",
+      "2. RE",
+      "3. ACQUIRER",
+      "3. PRICE",
+      "4. ACQUIRER",
+      "5. ACQUIRER",
+      "6. ACQUIRER",
+      "7. ACQUIRER",
+      "8. ACQUIRER",
+      "9. ACQUIRER",
+      "ACQUIRED",
+      "ACQUIRED 1",
+      "ACQUIRED 2",
+      "ACQUIRED 3",
+      "ACQUIRER",
+      "ACQUIRER 1",
+      "ACQUISITION",
+      "AQUIRER",
+      "EXPANSION",
+      "JOINT VENTURE",
+      "PARTNERSHIP",
+      "PRICE",
+      "TARGET COMPANY",
+      "THE ACQUIRER"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.2817723534,
+    "ents_p":0.4762331839,
+    "ents_r":0.200075358,
+    "ents_per_type":{
+      "ACQUIRER":{
+        "p":0.4778869779,
+        "r":0.2796549245,
+        "f":0.3528344671
+      },
+      "PRICE":{
+        "p":0.6666666667,
+        "r":0.017699115,
+        "f":0.0344827586
+      },
+      "ACQUIRED":{
+        "p":0.4697986577,
+        "r":0.1233480176,
+        "f":0.1953942777
+      },
+      "7. ACQUIRER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "5. ACQUIRER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "ACQUIRED 1":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "ACQUIRED 2":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "4. ACQUIRER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "1. ACQUIRER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "2. ACQUIRER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "3. ACQUIRER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":20729.4194724847,
+    "ner_loss":2984.460257735
+  }
+}
