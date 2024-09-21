@@ -1,4 +1,4 @@
-I have chosen to proceed with the second task, which is about extracting M&A information from news. 
+This is a project about extracting Mergers & Acqusitions information from the news. 
 
 please look at the notebooks in following order for understanding my implementation process:
 1.manual_web_scrap
@@ -8,4 +8,4 @@ please look at the notebooks in following order for understanding my implementat
 5.spacy_to_iob
 6.FT_BERT_NER
 
-I choose the BERT model for this task as it has better accuracy.
+After careful consideration, the BERT model is better for this task as it is more accurate.
